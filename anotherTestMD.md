@@ -5,8 +5,7 @@
         --format string     Output format: {json}                             
         --id string         ID of the field to delete                         
     -q, --jq expression     Filter JSON output using a jq expression          
-    -t, --template string   Format JSON output using a Go template; see "gh help
-  formatting"                                                                 
+    -t, --template string   Format JSON output using a Go template; see "gh help formatting"                                                                 
                                                                               
   ###  gh project field-list number [flags]                                   
                                                                               
@@ -16,8 +15,7 @@
     -q, --jq expression     Filter JSON output using a jq expression          
     -L, --limit int         Maximum number of fields to fetch (default 30)    
         --owner string      Login of the owner. Use "@me" for the current user.
-    -t, --template string   Format JSON output using a Go template; see "gh help
-  formatting"                                                                 
+    -t, --template string   Format JSON output using a Go template; see "gh help formatting"                                                                 
                                                                               
   ###  gh project item-add [<number>] [flags]                                 
                                                                               
@@ -26,10 +24,8 @@
         --format string     Output format: {json}                             
     -q, --jq expression     Filter JSON output using a jq expression          
         --owner string      Login of the owner. Use "@me" for the current user.
-    -t, --template string   Format JSON output using a Go template; see "gh help
-  formatting"                                                                 
-        --url string        URL of the issue or pull request to add to the    
-  project                                                                     
+    -t, --template string   Format JSON output using a Go template; see "gh help formatting"                                                                 
+        --url string        URL of the issue or pull request to add to the project                                                                     
                                                                               
   ###  gh project item-archive [<number>] [flags]                             
                                                                               
@@ -39,8 +35,7 @@
         --id string         ID of the item to archive                         
     -q, --jq expression     Filter JSON output using a jq expression          
         --owner string      Login of the owner. Use "@me" for the current user.
-    -t, --template string   Format JSON output using a Go template; see "gh help
-  formatting"                                                                 
+    -t, --template string   Format JSON output using a Go template; see "gh help formatting"                                                                 
         --undo              Unarchive an item                                 
                                                                               
   ###  gh project item-create [<number>] [flags]                              
@@ -51,20 +46,18 @@
         --format string     Output format: {json}                             
     -q, --jq expression     Filter JSON output using a jq expression          
         --owner string      Login of the owner. Use "@me" for the current user.
-    -t, --template string   Format JSON output using a Go template; see "gh help
-  formatting"                                                                 
+    -t, --template string   Format JSON output using a Go template; see "gh help formatting"                                                                 
         --title string      Title for the draft issue                         
                                                                               
   ###  gh project item-delete [<number>] [flags]                              
-                                                                              
+                                                                             
   Delete an item from a project by ID                                         
                                                                               
         --format string     Output format: {json}                             
         --id string         ID of the item to delete                          
     -q, --jq expression     Filter JSON output using a jq expression          
         --owner string      Login of the owner. Use "@me" for the current user.
-    -t, --template string   Format JSON output using a Go template; see "gh help
-  formatting"                                                                 
+    -t, --template string   Format JSON output using a Go template; see "gh help formatting"                                                                 
                                                                               
   ###  gh project item-edit [flags]                                           
                                                                               
@@ -76,17 +69,12 @@
         --field-id string                  ID of the field to update          
         --format string                    Output format: {json}              
         --id string                        ID of the item to edit             
-        --iteration-id string              ID of the iteration value to set on
-  the field                                                                   
-    -q, --jq expression                    Filter JSON output using a jq      
-  expression                                                                  
+        --iteration-id string              ID of the iteration value to set on the field                                                                   
+    -q, --jq expression                    Filter JSON output using a jq expression                                                                  
         --number float32                   Number value for the field         
-        --project-id string                ID of the project to which the field
-  belongs to                                                                  
-        --single-select-option-id string   ID of the single select option value to
-  set on the field                                                            
-    -t, --template string                  Format JSON output using a Go      
-  template; see "gh help formatting"                                          
+        --project-id string                ID of the project to which the field belongs to                                                                  
+        --single-select-option-id string   ID of the single select option value to set on the field                                                            
+    -t, --template string                  Format JSON output using a Go template; see "gh help formatting"                                          
         --text string                      Text value for the field           
         --title string                     Title of the draft issue item      
                                                                               
